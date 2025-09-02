@@ -95,3 +95,8 @@ public void setAlive()
 37. My cat has green eyes.
 39. it would print '# price cents.'
 40. same thing '# price cents.'
+
+42. different, because as seperate objects they call on a different values
+43. yes, im not sure what exactly they do but %d and %n are some sort of formating code for java
+44. their price is now always 1000 cents
+46. mutator

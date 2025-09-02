@@ -28,4 +28,25 @@ public class LabClass
 8. word 'public' can be left out without error
 9. the word 'class' on the other hand cannot, i think this is because public defines a feature of the class (visibility) so its not entirely required, but class defines the code as a class and so cant be left out otherwise the computer doesnt know what it is
 
- 
+10. 
+fields:
+ price
+ balance 
+ total
+constructors: 
+ public TicketMachine(int cost), creates the machine
+methods:
+ getPrice(), finds a tickets price
+ getBalance(), checks the balance in the machine
+ insertMoney(int amount), adds money to the balance
+ printTicket(), sets the balance to zero and prints a fake ticket in the terminal
+11. no parentheses and the return type is 'class'
+12. int, Student, Server
+13. alive, tutor, game
+14. Student, Server, Person, Game
+15. yes, the computer cant understand it in any other order and so returns errors
+16. yes, always
+17. private int status;
+18. Student
+19. two, the first is a string and the second is a double
+20. no, theyll be stored in the object when its created

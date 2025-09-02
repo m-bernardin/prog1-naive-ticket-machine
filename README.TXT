@@ -70,3 +70,28 @@ public class Date
 28. the return types are different (int for getPrice, and void for printTicket)
 29. no, because theyre setter methods
 
+31. 
+public void increaseScore(int points)
+{
+    score = score + points;
+}
+32. yes, becuase it changes values in a student object, could be shown by calling the method to check points before and after
+33. 
+public void discount(int amount)
+{
+    price = price - amount;  
+}
+34. 
+public void setAge(int currentAge)
+{
+    age = currentAge;
+}
+35. 
+public void setAlive()
+{
+    alive = true;
+}
+36. it set to 0
+37. My cat has green eyes.
+39. it would print '# price cents.'
+40. same thing '# price cents.'

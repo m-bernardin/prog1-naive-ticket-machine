@@ -50,3 +50,23 @@ methods:
 18. Student
 19. two, the first is a string and the second is a double
 20. no, theyll be stored in the object when its created
+
+21. 
+public Pet(String petsName)
+{
+    name = petsName
+}
+22. 
+public class Date
+{
+    private String month;
+    private int day;
+    private int year;
+}
+23. the only differences are the method names (in the headers) and the values returned (in the bodies)
+24. "how much is in the machine?"
+25. no,the body can remain the same, it means the name of the method isnt really asssociated with what it does (ie field associated with it)
+27. 'not a statement'
+28. the return types are different (int for getPrice, and void for printTicket)
+29. no, because theyre setter methods
+

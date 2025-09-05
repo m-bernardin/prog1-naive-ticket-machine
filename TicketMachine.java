@@ -18,7 +18,7 @@ public class TicketMachine
     // The total amount of money collected by this machine.
     private int total;
 
-    /**
+    /** q. 45
      * Create a machine that issues tickets of 1000 cents.
      */
     public TicketMachine()
@@ -86,21 +86,25 @@ public class TicketMachine
         balance = 0;
     }
     
+    //q 26.
     public int getTotal()
     {
         return total;
     }
     
+    //q 38.
     public void prompt()
     {
         System.out.println("Please insert the correct amount of money.");
     }
     
+    //q 41.
     public void showPrice()
     {
         System.out.println("The price of a ticket is " + price + " cents.");
     }
     
+    //q 46.
     public void empty()
     {
         total = 0;
